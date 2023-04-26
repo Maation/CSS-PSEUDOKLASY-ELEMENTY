@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+	<title>pseudoelementy CSS</title>
+	<style>
+	 	#letter::first-letter{
+			color:purple;
+			font-size: 100px;
+		}
+		#after::after{
+			content: "ez!";
+			color: springgreen;
+		}
+		#before::before{
+			content: "ez!";
+  			color: red;
+  			
+		}
+		#firstline::first-line{
+			color:cyan;
+			background: darkkhaki;
+		}
+		#marker::marker{
+			color: red;
+			
+		}
+		#selection::selection{
+			color: violet;
+  			background: black;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<p id="letter">F ortnite</p><br>
+	<p id="after">Piękna dziś pogoda  </p><br>
+	<p id="before">  Piękna dziś pogoda</p><br>
+	<p id="firstline">Zaznacza linia</p><br>
+	<h3>Lista życzeń</h3>
+<ol id="marker">
+	<li>piątka z witryn</li><br>
+	<li>5 z witryn</li><br>
+</ol>
+<p id="selection">Zaznacz</p><br>
+	
+</body>
+</html>
